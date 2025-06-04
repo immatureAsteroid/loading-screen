@@ -7,9 +7,13 @@ body {
 
 
 .loading-section {  
-    background-color: beige;
+    background-color: rgba(169, 182, 182, 0.466);
     max-width: 50%;  
+    padding: 20px;
+    padding-left:50px;
+    padding-right:50px;
     line-height: 1.4;  
+    border-radius:7%;
     font-size: 1.2rem;  
     font-weight: bold;  
     text-align: center;
@@ -19,7 +23,7 @@ body {
 .loading-line {  
     font-weight: normal;  
     font-size: 0.9rem;  
-    color: rgba(189,189,189 ,1);  
+    color: rgb(153, 144, 144);  
     margin: 0.6rem 0 2rem 0;  
     display: block;
 }
@@ -34,10 +38,10 @@ body {
     width: 35px;   
     height: 35px;   
     display: inline-block;   
-    border: 5px solid rgba(189,189,189 ,0.25); 
-    border-left-color: rgba(3,155,229 ,1);  border-top-color: rgba(3,155,229 ,1); 
+    border: 5px solid rgba(158, 157, 156, 0.25); 
+    border-left-color: rgb(98, 190, 235);  border-top-color: rgba(3,155,229 ,1); 
     border-radius: 50%;
-    animation: rotate 600ms infinite linear;
+    animation: rotate 500ms infinite linear;
     
    
 }
